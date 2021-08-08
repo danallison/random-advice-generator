@@ -511,4 +511,5 @@ var getAdvice = function () {
 button.addEventListener('click', function () {
   currentAnimation.stop(true);
   getAdvice();
+  plausible('GetAdviceClick');
 });
