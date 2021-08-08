@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <title>Random Advice Generator</title>
+  <meta name="description" content="Need advice? Random Advice Generator is here to help.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Bungee+Shade&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <script defer data-domain="randomadvicegenerator.com" src="https://plausible.io/js/plausible.js"></script>
+
+  <style>
+    html {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1 {
+      font-weight: 700;
+    }
+    .icon-block {
+      padding: 0 15px;
+    }
+    .icon-block .material-icons {
+    	font-size: inherit;
+    }
+    .bungee-font {
+      font-family: 'Bungee Shade';
+    }
+  </style>
+
+
+</head>
+
+
+  <body>
+
+    <main class="page-content" aria-label="Content" style="min-height:100vh;">
+      <div class="wrapper">
+        <div class="section no-pad-bot" id="index-banner">
+  <div class="container" style="margin-top:10vh;">
+    <br>
+    <div id="rag-title" class="row center">
+      <h1 style="overflow: hidden;" class="header center black-text bungee-font">
+        Random Advice Generator <span style="font-size:0.5em;font-family: 'Roboto', sans-serif;">.com</span>
+      </h1>
+      <p>built by <span style="height:0px;"><a href="https://danallison.github.io" title="Dan Allison"><img src="dan-face.png" style="width:33px;margin: -10px 0;" alt="Dan Allison"/></a></span></p>
+    </div>
+    <div class="row center" style="margin-top:60px;margin-bottom:60px;height:50px;">
+      <h5 class="header col s12 light"><span id="condition-display">Need advice?</span><span id="advice-display"> Random Advice Generator is here to help.</span></h5>
+    </div>
+    <div class="row center">
+      <div id="advice-button" class="btn-large waves-effect waves-light black">Get Advice</div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="page-footer grey darken-4" style="padding-bottom: 50px;">
+
+  <div class="container" style="font-size:0.8em;">
+
+Legal stuff:<br/>
+This website does not use cookies. No personal data is collected.<br/>
+This website is for entertainment purposes only. Please don't take randomly generated advice literally.
+  </div>
+
+</footer>
+
+<script type="text/javascript" src="animate-text-content.js"></script>
+<script type="text/javascript" src="script.js"></script>
+  </body>
+
+</html>
